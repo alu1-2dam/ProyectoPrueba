@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace Prueba
 {
-    class Program
+    public class Maquina
     {
-        static void Main(string[] args)
-        {
-            Maquina m = new Maquina();
-        }
+        public int Id { get; set; }
+        public string Deniminacion { get; set; }
     }
 }
