@@ -9,6 +9,6 @@ namespace Prueba
     public class Maquina
     {
         public int Id { get; set; }
-        public string Deniminacion { get; set; }
+        public string Denominacion { get; set; }
     }
 }
